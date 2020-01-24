@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#805A17</color>
+    <color name="colorPrimaryDark">#573E17</color>
+    <color name="colorAccent">#B82727</color>
+    <color name="bookPage">#F8D18D</color>
+    <color name="bookText">#131212</color>
+    <color name="bookmark">#B82727</color>
+</resources>

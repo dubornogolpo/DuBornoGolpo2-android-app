@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">"দু'বর্ণ গল্প "</string>
+    <string name="contents">সূচিপত্র</string>
+    <string name="editorial">সম্পাদকীয়</string>
+    <string name="browse_by_authors">লেখক ব্রাউজ করুন</string>
+    <string name="publisher">প্রকাশক</string>
+    <string name="next">পরবর্তী</string>
+    <string name="scanner_text">বারকোড স্ক্যান করতে দয়া করে স্ক্যান বোতামটি আলতো চাপুন</string>
+    <string name="scan">স্ক্যান</string>
+    <string name="name">নাম</string>
+    <string name="phone">ফোন নম্বর</string>
+    <string name="sign_up">নিবন্ধন করুন</string>
+    <string name="authors">লেখক</string>
+    <string name="stories">গল্প</string>
+    <string name="full_book">সম্পূর্ণ বই</string>
+    <string name="birthplace">জন্ম স্থান</string>
+    <string name="school">স্কুল</string>
+    <string name="college">কলেজ</string>
+    <string name="bloodgroup">রক্তের গ্রুপ</string>
+    <string name="hobbies">শখ</string>
+</resources>

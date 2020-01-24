@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.dubornogolpo.dubornogolpo2">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name="com.dubornogolpo.dubornogolpo2.Publisher"></activity>
+        <activity android:name="com.dubornogolpo.dubornogolpo2.Editorial" />
+        <activity android:name="com.dubornogolpo.dubornogolpo2.Continuous" />
+        <activity android:name="com.dubornogolpo.dubornogolpo2.AuthorDetails" />
+        <activity android:name="com.dubornogolpo.dubornogolpo2.StoryView" />
+        <activity android:name="com.dubornogolpo.dubornogolpo2.AuthorBrowser" />
+        <activity android:name="com.dubornogolpo.dubornogolpo2.Contents" />
+        <activity android:name="com.dubornogolpo.dubornogolpo2.HomeScreenActivity" />
+        <activity android:name="com.dubornogolpo.dubornogolpo2.SignUpActivity" />
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="fullSensor"
+            tools:replace="screenOrientation" />
+        <activity android:name="com.dubornogolpo.dubornogolpo2.ScannerActivity" />
+        <activity android:name="com.dubornogolpo.dubornogolpo2.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
