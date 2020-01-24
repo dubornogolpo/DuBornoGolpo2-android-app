@@ -37,7 +37,7 @@ class AuthorBrowser : AppCompatActivity() {
                                 authortmp
                             )
                         )
-                        dbHelper.writeAuthorsToDatabase(authortmp.name, authortmp.birthplace, authortmp.bloodGroup, authortmp.school, authortmp.college, authortmp.hobbies)
+//                        dbHelper.writeAuthorsToDatabase(authortmp.name, authortmp.birthplace, authortmp.bloodGroup, authortmp.school, authortmp.college, authortmp.hobbies)
                     }
                 }
                 authorRecycler.adapter = authorAdapter
